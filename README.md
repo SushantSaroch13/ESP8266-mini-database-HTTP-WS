@@ -16,8 +16,8 @@ A complete IoT pipeline that stores sensor data on an ESP8266's flash memory and
 | Repo | Description |
 |------|-------------|
 | This repo | ESP8266 firmware (PlatformIO / Arduino) |
-| `esp-relay` | Node.js WebSocket relay server (deploy to Railway) |
-| `esp-dashboard` | Next.js frontend dashboard (deploy to Vercel) |
+| [SushantSaroch13/esp-relay](https://github.com/SushantSaroch13/esp-relay) | Node.js WebSocket relay server (deploy to Railway) |
+| [SushantSaroch13/esp-dashboard](https://github.com/SushantSaroch13/esp-dashboard) | Next.js frontend dashboard (deploy to Vercel) |
 
 ---
 
