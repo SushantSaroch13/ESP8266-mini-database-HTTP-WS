@@ -23,7 +23,7 @@ A complete IoT pipeline that stores sensor data on an ESP8266's flash memory and
 
 ## Hardware
 
-- **ESP-01 (1MB flash)** running ESP8266 at 80MHz
+- **ESP-12F (1MB flash)** running ESP8266 at 80MHz
 - Connects to home WiFi with a static local IP
 - Stores records as packed binary structs in LittleFS
 
