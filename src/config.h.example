@@ -1,0 +1,29 @@
+#pragma once
+
+#define FILE_PATH "/data.bin"
+#define META_PATH "/meta.txt"
+
+// HTTP Basic Auth credentials for all API endpoints
+#define BASIC_USER ""
+#define BASIC_PASS ""
+
+// WiFi credentials
+#define SSID ""
+#define PASS ""
+
+// Static local IP — must match your router's subnet (e.g. 192.168.1.x)
+// Set this to an IP outside your router's DHCP range to avoid conflicts
+#define STATIC_IP   ""        // e.g. "192.168.1.201"
+#define GATEWAY_IP  ""        // e.g. "192.168.1.1"
+#define SUBNET_MASK "255.255.255.0"
+#define DNS_SERVER  "8.8.8.8"
+
+// DuckDNS — register free at https://www.duckdns.org
+// Example: if your URL is myhome.duckdns.org, set DOMAIN to "myhome"
+#define DUCKDNS_DOMAIN ""
+#define DUCKDNS_TOKEN  ""
+
+// WebSocket relay — fill in after deploying the relay server to Railway/Render
+#define RELAY_HOST ""         // e.g. "your-app.up.railway.app"
+#define RELAY_PORT 443
+#define RELAY_PATH "/ws"
