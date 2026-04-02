@@ -177,3 +177,12 @@ src/
 └── config.h.example    Template — copy to config.h
 platformio.ini          PlatformIO project config
 ```
+## 👨‍💻 Author
+
+**Sushant Saroch**
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
